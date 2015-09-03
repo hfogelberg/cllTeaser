@@ -1,1 +1,1 @@
-@Submissions = new Meteor.Model('submissions')
+@Submissions = new Meteor.Collection('submissions')

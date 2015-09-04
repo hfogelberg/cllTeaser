@@ -9,3 +9,4 @@ insecure
 twbs:bootstrap
 coffeescript
 iron:router
+fortawesome:fontawesome

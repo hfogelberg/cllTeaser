@@ -6,8 +6,12 @@ Router.map ->
     template: 'teaser',
     path: '/'
     
-  @route 'about'
+  @route 'about',
+  	template: 'about'
+  	path: '/about'
 
-  @route 'contact'
+  @route 'contact',
+  	template: 'contact',
+  	path: '/contact'
 
   @route 'thanks'

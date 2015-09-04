@@ -70,10 +70,16 @@
 
 .title h1 {
   font-size: 400%;
+  font-family: 'Lato', sans-serif;
+  font-variant: 'ultra-bold';
+  font-weight: 900;
 }
 
 .title h2 {
   font-size: 250%;
+  font-family: 'Lato', sans-serif;
+  font-variant: 'bold';
+  font-weight: 700;
 }
 /* style the groups
 --------------------------------------------- */

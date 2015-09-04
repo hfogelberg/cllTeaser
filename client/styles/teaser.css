@@ -6,7 +6,7 @@
 
 body {
   font: 100% / 1.5 Arial;
-  background-color: rgb(214,229,100);
+  background-color: rgb(245,235,100);
 }
 
 body, html {
@@ -16,4 +16,20 @@ body, html {
 .container-fluid {
 	margin: 0 !important;
 	padding: 0 !important;
+}
+
+.inputForm info {
+	margin-bottom: 20px;
+}
+
+.footer {
+	margin-left: 40px;
+}
+
+.footer a {
+	color: #9494B8
+}
+
+i {
+	margin-right: 10px;
 }

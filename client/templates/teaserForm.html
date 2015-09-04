@@ -1,0 +1,53 @@
+<template name='teaserForm'>
+  <div class='inputForm'>
+    <p>
+      Do you have a property in the Canary islands that you want to rent to other people over a longer period of time?
+    </p>
+    <p>
+      Or are you interested in renting and want to know when the site goes live?
+    </p>
+    <p>
+      Let us know!
+    </p>
+    <p>
+      Don't worry, we hate spam and will not abuse your email in any way.
+    </p>
+    <hr>
+
+    <p>
+      <br>
+      <form class='addProperty form-horizontal'>
+        <div class='form-group'>
+          <label for='email' class='col-sm-2'>Email</label>
+          <div class='col-sm-10'>
+            <input  class="form-control email" name="email" type="email"/>
+          </div>
+        </div>
+
+        <div class='form-group'>
+          <label for='wantTo' class='col-sm-2'>I want to</label>
+          <div class='col-sm-10'>
+            <label class='wantTo radio-inline'>
+              <input type='radio' value='advertise' name='wantTo' checked>Advertise
+            </label>
+            <label class='radio-inline'>
+              <input type='radio' value='rent' name='wantTo'>Rent
+            </label>
+          </div>
+        </div>
+        
+        <div class='form-group'>
+          <div class='col-sm-offset-2 col-sm-10'>
+            <textarea class='form-control comment' placeholder='Anything you want to tell us?' rows='5' name='comment'></textarea>
+          </div>
+        </div>
+
+        <div class='form-group'>
+          <div class='col-sm-offset-2 col-sm-10'>
+            <input typ='submit' class='btnSubmit btn btn-warning btn-lg' value='Submit'>
+          </div>
+        </div>
+      </form>
+    </p>
+  </div>
+</template>

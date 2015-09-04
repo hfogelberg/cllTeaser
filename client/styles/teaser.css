@@ -1,0 +1,19 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+
+body {
+  font: 100% / 1.5 Arial;
+  background-color: rgb(214,229,100);
+}
+
+body, html {
+  overflow: hidden;
+}
+
+.container-fluid {
+	margin: 0 !important;
+	padding: 0 !important;
+}
